@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4DA690CB2C4004DC00690C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA690B12C4004DB00690C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA690B82C4004DB00690C8E;
+			remoteInfo = "TTC 4 Mac";
+		};
+		4DA690D52C4004DC00690C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA690B12C4004DB00690C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA690B82C4004DB00690C8E;
+			remoteInfo = "TTC 4 Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DA690B92C4004DB00690C8E /* TTC 4 Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTC 4 Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA690CA2C4004DC00690C8E /* TTC 4 MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTC 4 MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA690D42C4004DC00690C8E /* TTC 4 MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTC 4 MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4DA690BB2C4004DB00690C8E /* TTC 4 Mac */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TTC 4 Mac"; sourceTree = "<group>"; };
+		4DA690CD2C4004DC00690C8E /* TTC 4 MacTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TTC 4 MacTests"; sourceTree = "<group>"; };
+		4DA690D72C4004DC00690C8E /* TTC 4 MacUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TTC 4 MacUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA690B62C4004DB00690C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690C72C4004DC00690C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690D12C4004DC00690C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA690B02C4004DB00690C8E = {
+			isa = PBXGroup;
+			children = (
+				4DA690BB2C4004DB00690C8E /* TTC 4 Mac */,
+				4DA690CD2C4004DC00690C8E /* TTC 4 MacTests */,
+				4DA690D72C4004DC00690C8E /* TTC 4 MacUITests */,
+				4DA690BA2C4004DB00690C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DA690BA2C4004DB00690C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA690B92C4004DB00690C8E /* TTC 4 Mac.app */,
+				4DA690CA2C4004DC00690C8E /* TTC 4 MacTests.xctest */,
+				4DA690D42C4004DC00690C8E /* TTC 4 MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DA690B82C4004DB00690C8E /* TTC 4 Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA690DE2C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 Mac" */;
+			buildPhases = (
+				4DA690B52C4004DB00690C8E /* Sources */,
+				4DA690B62C4004DB00690C8E /* Frameworks */,
+				4DA690B72C4004DB00690C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4DA690BB2C4004DB00690C8E /* TTC 4 Mac */,
+			);
+			name = "TTC 4 Mac";
+			packageProductDependencies = (
+			);
+			productName = "TTC 4 Mac";
+			productReference = 4DA690B92C4004DB00690C8E /* TTC 4 Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DA690C92C4004DC00690C8E /* TTC 4 MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA690E12C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 MacTests" */;
+			buildPhases = (
+				4DA690C62C4004DC00690C8E /* Sources */,
+				4DA690C72C4004DC00690C8E /* Frameworks */,
+				4DA690C82C4004DC00690C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA690CC2C4004DC00690C8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DA690CD2C4004DC00690C8E /* TTC 4 MacTests */,
+			);
+			name = "TTC 4 MacTests";
+			packageProductDependencies = (
+			);
+			productName = "TTC 4 MacTests";
+			productReference = 4DA690CA2C4004DC00690C8E /* TTC 4 MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DA690D32C4004DC00690C8E /* TTC 4 MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA690E42C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 MacUITests" */;
+			buildPhases = (
+				4DA690D02C4004DC00690C8E /* Sources */,
+				4DA690D12C4004DC00690C8E /* Frameworks */,
+				4DA690D22C4004DC00690C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA690D62C4004DC00690C8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DA690D72C4004DC00690C8E /* TTC 4 MacUITests */,
+			);
+			name = "TTC 4 MacUITests";
+			packageProductDependencies = (
+			);
+			productName = "TTC 4 MacUITests";
+			productReference = 4DA690D42C4004DC00690C8E /* TTC 4 MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DA690B12C4004DB00690C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4DA690B82C4004DB00690C8E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4DA690C92C4004DC00690C8E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4DA690B82C4004DB00690C8E;
+					};
+					4DA690D32C4004DC00690C8E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4DA690B82C4004DB00690C8E;
+					};
+				};
+			};
+			buildConfigurationList = 4DA690B42C4004DB00690C8E /* Build configuration list for PBXProject "TTC 4 Mac" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DA690B02C4004DB00690C8E;
+			productRefGroup = 4DA690BA2C4004DB00690C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA690B82C4004DB00690C8E /* TTC 4 Mac */,
+				4DA690C92C4004DC00690C8E /* TTC 4 MacTests */,
+				4DA690D32C4004DC00690C8E /* TTC 4 MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA690B72C4004DB00690C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690C82C4004DC00690C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690D22C4004DC00690C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA690B52C4004DB00690C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690C62C4004DC00690C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA690D02C4004DC00690C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DA690CC2C4004DC00690C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA690B82C4004DB00690C8E /* TTC 4 Mac */;
+			targetProxy = 4DA690CB2C4004DC00690C8E /* PBXContainerItemProxy */;
+		};
+		4DA690D62C4004DC00690C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA690B82C4004DB00690C8E /* TTC 4 Mac */;
+			targetProxy = 4DA690D52C4004DC00690C8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DA690DC2C4004DC00690C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DA690DD2C4004DC00690C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4DA690DF2C4004DC00690C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTC 4 Mac/TTC_4_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTC 4 Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DA690E02C4004DC00690C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTC 4 Mac/TTC_4_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTC 4 Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4DA690E22C4004DC00690C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTC 4 Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTC 4 Mac";
+			};
+			name = Debug;
+		};
+		4DA690E32C4004DC00690C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTC 4 Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTC 4 Mac";
+			};
+			name = Release;
+		};
+		4DA690E52C4004DC00690C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TTC 4 Mac";
+			};
+			name = Debug;
+		};
+		4DA690E62C4004DC00690C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7762353YZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TTC 4 Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA690B42C4004DB00690C8E /* Build configuration list for PBXProject "TTC 4 Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA690DC2C4004DC00690C8E /* Debug */,
+				4DA690DD2C4004DC00690C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA690DE2C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA690DF2C4004DC00690C8E /* Debug */,
+				4DA690E02C4004DC00690C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA690E12C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA690E22C4004DC00690C8E /* Debug */,
+				4DA690E32C4004DC00690C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA690E42C4004DC00690C8E /* Build configuration list for PBXNativeTarget "TTC 4 MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA690E52C4004DC00690C8E /* Debug */,
+				4DA690E62C4004DC00690C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DA690B12C4004DB00690C8E /* Project object */;
+}
