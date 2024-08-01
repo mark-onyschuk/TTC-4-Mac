@@ -3,8 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5AD2E12C45D6FE00EB8C68 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 4D5AD2E02C45D6FE00EB8C68 /* ZipArchive */; };
+		4DD2EF9D2C40240F00A83625 /* Silo in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD2EF9C2C40240F00A83625 /* Silo */; };
+		4DFA454D2C400A670004E0C2 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 4DFA454C2C400A670004E0C2 /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4DA690CB2C4004DC00690C8E /* PBXContainerItemProxy */ = {
@@ -40,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFA454D2C400A670004E0C2 /* LaunchAtLogin in Frameworks */,
+				4DD2EF9D2C40240F00A83625 /* Silo in Frameworks */,
+				4D5AD2E12C45D6FE00EB8C68 /* ZipArchive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +109,9 @@
 			);
 			name = "TTC 4 Mac";
 			packageProductDependencies = (
+				4DFA454C2C400A670004E0C2 /* LaunchAtLogin */,
+				4DD2EF9C2C40240F00A83625 /* Silo */,
+				4D5AD2E02C45D6FE00EB8C68 /* ZipArchive */,
 			);
 			productName = "TTC 4 Mac";
 			productReference = 4DA690B92C4004DB00690C8E /* TTC 4 Mac.app */;
@@ -160,6 +172,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = "Dimension North Inc.";
 				TargetAttributes = {
 					4DA690B82C4004DB00690C8E = {
 						CreatedOnToolsVersion = 16.0;
@@ -183,6 +196,11 @@
 				Base,
 			);
 			mainGroup = 4DA690B02C4004DB00690C8E;
+			packageReferences = (
+				4DFA454B2C400A670004E0C2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+				4DD2EF9B2C40240F00A83625 /* XCRemoteSwiftPackageReference "Silo" */,
+				4D5AD2DF2C45D6FE00EB8C68 /* XCRemoteSwiftPackageReference "ZipArchive" */,
+			);
 			productRefGroup = 4DA690BA2C4004DB00690C8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -379,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "TTC 4 Mac/TTC_4_Mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TTC 4 Mac/TTC_4_Mac_Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -388,11 +406,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,15 +432,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TTC 4 Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = 7762353YZ4;
+				DEVELOPMENT_TEAM = 7Z3J577P6B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dimension-north.TTC-4-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,6 +560,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D5AD2DF2C45D6FE00EB8C68 /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.5;
+			};
+		};
+		4DD2EF9B2C40240F00A83625 /* XCRemoteSwiftPackageReference "Silo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Dimension-North-Inc/Silo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4DFA454B2C400A670004E0C2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D5AD2E02C45D6FE00EB8C68 /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D5AD2DF2C45D6FE00EB8C68 /* XCRemoteSwiftPackageReference "ZipArchive" */;
+			productName = ZipArchive;
+		};
+		4DD2EF9C2C40240F00A83625 /* Silo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD2EF9B2C40240F00A83625 /* XCRemoteSwiftPackageReference "Silo" */;
+			productName = Silo;
+		};
+		4DFA454C2C400A670004E0C2 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DFA454B2C400A670004E0C2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DA690B12C4004DB00690C8E /* Project object */;
 }
