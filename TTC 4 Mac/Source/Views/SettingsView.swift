@@ -100,12 +100,15 @@ struct SettingsView: View {
         let isUpdating = model.isUpdatingPrices
 
         HStack {
-            if let date = model.lastUpdate {
-                Group {
+            Group {
+                if let error = model.error {
+                    Image(systemName: "exclamationmark.triangle.fill")
+                    Text(error.localizedDescription)
+                } else if let date = model.lastUpdate {
                     Text("Last Update:")
                     Text(date.formatted(.relative(presentation: .named)))
-                }.foregroundStyle(.secondary)
-            }
+                }
+            }.foregroundStyle(.secondary)
 
             Spacer()
             

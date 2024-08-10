@@ -26,6 +26,8 @@ final class AppModel: ObservableObject {
     @Published var isUpdatingPrices: Bool = false
     @Published var isSearchingForAddOnURL: Bool = false
 
+    @Published var error: Error?
+    
     @Default(.local("lastUpdate")) var lastUpdate: Date? {
         willSet { objectWillChange.send() }
     }
@@ -90,6 +92,7 @@ final class AppModel: ObservableObject {
                 return
             }
             
+            error = nil
             isUpdatingPrices = true
             defer { isUpdatingPrices = false }
             
@@ -116,7 +119,7 @@ final class AppModel: ObservableObject {
                 }
             }
             catch {
-                print(#function, error)
+                self.error = error
             }
         }
     }

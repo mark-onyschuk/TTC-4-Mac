@@ -25,6 +25,15 @@ struct MenuView: View {
             Text("Last Updated: \(lastUpdated)")
                 .font(.body).bold()
 
+            if model.error != nil {
+                Divider()
+                Label {
+                    Text("Price Update Error")
+                } icon: {
+                    Image(systemName: "exclamationmark.triangle.fill")
+                }
+
+            }
             Divider()
             Button("Update Prices Now") {
                 updatePrices()
