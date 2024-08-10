@@ -6,4 +6,4 @@ for US and EU pricing data, and copies said data to your add-on folder.
 
 This source code weakly relies on an internal library - you should be able to eliminate that 
 reliance if you'd like to compile and run this code yourself - basically I'm using a property
-wrapper from an internal project we call "Silo" backing onto user defaults.
+wrapper from an internal project we call "Silo" that backs properties onto user defaults.
